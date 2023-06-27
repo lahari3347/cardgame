@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: card-game
+  profiles:
+    active: default
+
+server:
+  port: 8000
+  servlet:
+    contextPath: /api/game
+  forward-headers-strategy: FRAMEWORK
